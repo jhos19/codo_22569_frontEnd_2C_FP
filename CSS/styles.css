@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap');
+
+h1 {
+color: blue;
+}
+
+h2 {
+    color: blueviolet;
+    front: size 45px;
+}
+
+p{
+    color: brown;
+}
