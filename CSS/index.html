@@ -5,12 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS CLASE 6</title>
-    <link href="styles.ccs" rel="stylesheet">
+    <style>
+        h1{
+            color: yellow;
+        }
+
+        /* Selector Universal*/
+
+        *{
+            margin: 0;
+            padding: 100;
+        }
+    </style>
+    <link href="styles.css" rel="stylesheet">
+
+    
 </head>
    
 <body>
-    
+    <main>
+        <section>
+    <!--esto indica que style hace que le agregue los stilos de css de forma-->
     <h1 style="color:aqua">  Clase6 CSS </h1>
+    <!--El Inline siempre tiene prioridad con respecto a los stylos externos-->
+
+    <h2>  Soy un subtitulo</h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia in ab deleniti possimus enim, temporibus earum rem sequi commodi facere dolorem tempora, suscipit quidem et ea eum quae accusantium consectetur.</p>
     
+    <!--Para diferenciar un p de otro se puede hacer por identificador ID-->
+
+    <p id="parrafoAzul"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui porro mollitia earum et asperiores, consectetur facere quaerat laborum cumque ut minima praesentium excepturi reprehenderit similique aliquam amet quisquam laudantium voluptatum.</p>
+
+    <p class="claseParrafoAzul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere fugit consequuntur mollitia distinctio asperiores iste nulla eum ratione qui, amet magnam suscipit placeat iusto repellat numquam minus consectetur deserunt!</p>
+        </section>
+        <br>
+
+        <section>
+            <div class="caja">
+                <h3>Sub titulo 3</h3>
+                <p class="textoBoldt">Lorem <b>ipsum</b> dolor sit <i>amet</i>, consectetur adipisicing elit. Minus a iste nesciunt! Eligendi, molestiae hic temporibus ab quidem, architecto soluta officiis quisquam nobis voluptatem facere beatae numquam et modi iusto.</p>
+                <p class="textoItalic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus a iste nesciunt! Eligendi, molestiae hic temporibus ab quidem, architecto soluta officiis quisquam nobis voluptatem facere beatae numquam et modi iusto.</p>
+            </div>
+        </section>
+
+        <section>
+            <p class="textoItalic textoBoldt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus suscipit iste fugit corporis commodi veniam earum ratione, accusantium beatae, soluta aut nemo cum maxime, distinctio ipsa quae non cumque! Cupiditate.</p>
+        </section>
+    </main> 
 </body>
 </html> 

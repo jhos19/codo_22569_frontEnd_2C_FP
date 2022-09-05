@@ -1,15 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap');
+/*esto es un comentario en CSS
+esto es otro comentario en css
+*/
 
+/*todos los h1 del documento*/
+/*Selector por tipo*/
 h1 {
-color: blue;
+    color: blue;
+
 }
+
+/*
+selector HTML {
+    atributo: valor ;
+}
+
+*/
 
 h2 {
-    color: blueviolet;
-    front: size 45px;
+    color:blueviolet;
+    font-size: 45px;
 }
 
-p{
-    color: brown;
+p {
+    color: rgb(212, 43, 14);
 }
+
+/* Selector por id #nombredel id {} */
+
+#parrafoAzul{
+    color: blue;
+}
+
+/*Selector por Clase .nombre{}  */
+.claseParrafoAzul{
+    color: cadetblue;
+}
+
+
+.caja {
+    background-color: aqua;
+    height: 100px;
+    font-size: 13px;
+}
+
+.caja p {
+    color: black;
+}
+
+.textoItalic {
+    font-style: italic;
+}
+
+.textoBoldt{
+    font-weight: bold;
+    font-family: 'Bellota', cursive;
+}
+
+
+/*Fuente Externa*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Colores*/
+/*RGB (RED,GREEN,BLUE)*/
+/*RGB (0,0,0)*/
+/*RGB (255,255,255)*/
