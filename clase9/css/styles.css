@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/* Selector universal para que la nueva fuente aplique a todo el*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: beige;
+}
+
+ .menu-container{
+list-style-type: none;
+background-color: black;
+padding: 15px;
+height: 30px;
+}
+
+.menu-container li a {
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    border: 1px ;
+    padding-top: 2px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.menu-container li a:hover{
+    color: green;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.menu-container li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.active{
+    font-size: 1.2em;
+    color: chocolate !important;
+}
+
+h1 {
+    color: aqua;
+    text-align: center;
+}
+
